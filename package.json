@@ -1,0 +1,16 @@
+{
+  "name": "agritrade-manager",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AgriTrade Manager - Multi-Crop Trading MERN App",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "start": "npm --prefix backend run start",
+    "seed": "npm --prefix backend run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
+
+
