@@ -8,8 +8,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Crops from './pages/Crops';
 import Farmers from './pages/Farmers';
-import Purchases from './pages/Purchases';
-import Sales from './pages/Sales';
+
 import Reports from './pages/Reports';
 
 // Components
@@ -159,3 +158,4 @@ function App() {
 }
 
 export default App;
+
